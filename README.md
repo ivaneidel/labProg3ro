@@ -1,0 +1,1 @@
+La idea es que todos los proyectos de Laboratorio de Programacion de 2do cuatrimestre de 3ro los pongamos aca, nos sirve para usarlo todos, importante hacer los pulls y pushs correspondientes asi nadie se queda desactualizado ni se hace quilombo. Tambien nos sirve para compartir despues los trabajos como publicos, me parece que esta bueno que no se pierdan
