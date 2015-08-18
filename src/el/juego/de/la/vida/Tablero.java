@@ -83,6 +83,8 @@ public class Tablero {
 				
 				if(!(this.X == x && this.Y == y))
 					
+					System.out.println(this.toString());
+					
 					if(this.tablero[this.X][this.Y].getEstado())
 						
 						rta++;			
@@ -109,22 +111,26 @@ public class Tablero {
 	
 	}
 	
-	public void mostrarTablero(){
+	public String toString(){
+		
+		String sda = "";
 		
 		for (int i = 0; i < tablero.length; i++) {
 			
 			for (int j = 0; j < tablero.length; j++) {
 				
 				if(tablero[i][j].getEstado())
-					System.out.print(" --HH-- ");
+					sda = sda + " --HH-- ";
 				else
-					System.out.print(" --EE-- ");
+					sda = sda + " --EE-- ";
 				
 			}
 			
-			System.out.println();
+			sda = sda + "\n";
 			
 		}
+		
+		return sda;
 		
 	}
 	
